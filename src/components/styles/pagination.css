@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.pagination__button {
+    padding: 5px 7.5px;
+    border-radius: 5px;  
+    background-color: #71A821;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.pagination button:hover {
+    transform: scale(1.1);
+    box-shadow: -2px 2px 5px black;
+    transition: transform .25s,
+                box-shadow .25s;
+}
+
+.pagination__page {
+    margin-right: 20px;
+    padding: 3px s5px;
+    background-color: transparent;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+}

@@ -1,0 +1,46 @@
+.location {
+  background-color: #072226;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: transform .25;
+}
+
+.location:hover {
+  transform: scale(1.1);
+  box-shadow: -5px -5px 5px black;
+  transition: transform .25;
+}
+
+.location__name {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+.location__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.location__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: #aaaaaa;
+}
+
+.location__item span {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
